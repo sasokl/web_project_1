@@ -1,9 +1,9 @@
-* {
+/** {
   margin: 0;
   margin-block: 0;
   margin-inline: 0;
   padding: 0;
-}
+}*/
 
 .page {
   min-width: 1100px;
@@ -50,16 +50,14 @@
 }
 
 
-
 .header__title {
   z-index: 3;
   width: 730px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+
 }
 
 .header__subtitle {
@@ -71,6 +69,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__link {
@@ -96,12 +95,14 @@
   height: 568px;
   background-color: #2F80ED;
 }
+
 /* ==========================  content  ========================== */
 
 .content {
   display: flex;
   flex-direction: column;
 }
+
 /* ==========================  description  ========================== */
 
 .description {
@@ -123,6 +124,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -137,6 +139,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -163,6 +166,7 @@
   width: 60%;
   text-align: center;
   z-index: 3;
+  margin: 0;
 }
 
 .section-title_theme_dark {
@@ -181,6 +185,7 @@
   text-align: center;
   padding-top: 20px;
   z-index: 3;
+  margin: 0;
 }
 
 .section-subtitle_theme_dark {
@@ -195,6 +200,8 @@
   justify-content: space-between;
   width: 1100px;
   z-index: 2;
+  margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -238,6 +245,7 @@
   background-repeat: no-repeat;
   background-position: bottom left;
   padding-top: 100px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -246,6 +254,7 @@
   font-weight: bold;
   width: 775px;
   text-align: center;
+  margin: 0;
 }
 
 .feynman__subtitle {
@@ -253,11 +262,12 @@
   font-size: 36px;
   font-weight: normal;
   padding-top: 70px;
+  margin: 0;
 }
 
-.feynman__link{
+.feynman__link {
   position: absolute;
-  top:50%;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -296,6 +306,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   min-height: 350px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -303,6 +314,8 @@
   justify-content: space-between;
   width: 90%;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__columns_content_copyright {
@@ -338,7 +351,7 @@
 }
 
 .footer__list {
-  color:white;
+  color: white;
   list-style: none;
   padding-top: 20px;
 }
