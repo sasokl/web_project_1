@@ -1,0 +1,8 @@
+.root {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+
+  /*--- constants   */
+  --header-left-indent: 64px;
+  --link-transition: opacity .3s linear;
+  --hovered-link-opacity: .6;
+}

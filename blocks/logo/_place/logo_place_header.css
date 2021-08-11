@@ -1,0 +1,8 @@
+.logo_place_header {
+  background-image: url("../../../images/logo_place_header.png");
+  position: absolute;
+  top: 30px;
+  left: var(--header-left-indent);
+  width: 154px;
+  height: 31px;
+}
