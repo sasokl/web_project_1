@@ -1,4 +1,5 @@
 @import url(../blocks/root/root.css);
+@import url(../variables/variables.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -20,6 +21,7 @@
 /* ==========================  content  ========================== */
 
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/__video/content__video.css);
 
 /* ==========================  description  ========================== */
 

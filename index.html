@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="blocks/cards/__description/cards__description.css"/>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
-<body class="root">
+<body class="root variables">
 <div class="page">
   <header class="header">
     <div class="logo logo_place_header"></div>
@@ -79,19 +78,17 @@
       </ul>
     </section>
 
-    <section class="video section-overlap">
+    <section class="video content__video">
       <h2 class="section-title">TED talks</h2>
       <p class="section-subtitle">For lovers of procrastination</p>
       <ul class="video__iframes">
-        <li class="video__iframe">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
-                  frameborder="0"
+        <li>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
         </li>
-        <li class="video__iframe">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
-                  frameborder="0"
+        <li>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
         </li>
@@ -163,15 +160,20 @@
       <div class="khan__container">
         <p class="khan__author">Salman Khan</p>
         <h2 class="khan__title">The One World Schoolhouse</h2>
-        <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
-          students worldwide. The One World Schoolhouse is a must-read for all
-          who are committed to improving education so students everywhere can
-          gain the skills and knowledge to be successful in school, careers and life.</p>
+        <blockquote class="khan__quote">
+          <p>
+            Sal Khan's passion and innovation is transforming learning for millions of
+            students worldwide. The One World Schoolhouse is a must-read for all
+            who are committed to improving education so students everywhere can
+            gain the skills and knowledge to be successful in school, careers and life.
+          </p>
+        </blockquote>
         <p class="khan__quote-author">George Lucas</p>
         <p class="khan__quote-author-subline">Filmmaker</p>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book-2.png" alt="The one world school house book cover">
-          <a class="khan__buy-link" href="#">Buy book &#8594;</a>
+          <a class="khan__buy-link"
+             href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373">Buy book &#8594;</a>
         </div>
       </div>
     </section>
@@ -221,7 +223,8 @@
           <p class="table__text">Emphasize quantity and speed</p>
         </li>
       </ul>
-      <div class="kaufman__triangle rotation" title="A big blue triangle, over which Josh Kaufman claims ownership"></div>
+      <div class="kaufman__triangle rotation"
+           title="A big blue triangle, over which Josh Kaufman claims ownership"></div>
     </section>
 
     <section class="resources">

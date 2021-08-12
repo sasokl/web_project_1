@@ -1,0 +1,5 @@
+.variables {
+  --header-left-indent: 64px;
+  --link-transition: opacity .3s linear;
+  --hovered-link-opacity: .6;
+}
