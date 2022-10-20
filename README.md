@@ -1,5 +1,7 @@
 # Learning How to Learn
 
+[GitPages](https://sasokl.github.io/web_project_1/)
+
 ## About the project
 
 One-page site telling about the problem of learning and its solutions. Here you can find information about methods and
